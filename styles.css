@@ -1,0 +1,70 @@
+body {
+  background: black;
+}
+
+#center {
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+#center {
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+#sun {
+  width: 50px;
+  height: 50px;
+  background: yellow;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+#pla {
+  width: 20px;
+  height: 20px;
+  background: turquoise;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: hidden;
+  animation: circle 31600000s linear infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg) translate(150px);
+  }
+  50% {
+    transform: rotate(180deg) translate(150px);
+  }
+  100% {
+    transform: rotate(360deg) translate(150px);
+  }
+}
